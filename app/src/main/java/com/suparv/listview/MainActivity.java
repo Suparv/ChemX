@@ -87,6 +87,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void Na (View view)
+    {
+        Intent intent = new Intent(MainActivity.this, Sodium.class);
+        startActivity(intent);
+    }
 
 
 }

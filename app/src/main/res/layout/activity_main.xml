@@ -403,6 +403,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="#FF5B36"
+                        android:onClick="Na"
                         android:text="Na"
                         android:textAllCaps="false" />
 
