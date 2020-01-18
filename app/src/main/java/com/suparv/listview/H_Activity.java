@@ -26,7 +26,7 @@ public class H_Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_h_);
-//        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
 
         listView1 = findViewById(R.id.list1);
@@ -106,7 +106,7 @@ public class H_Activity extends AppCompatActivity {
         ArrayList<String> arrayList6 = new ArrayList<>();
         arrayList6.add("1) Crystal structure : Hexagonal");
         arrayList6.add("2) Grid Parameters : a=3.780 A, c=6.167 A");
-        arrayList6.add("3) Debye temperature : -163.15 C = 110K");
+        arrayList6.add("3) Debye temperature : -122 K");
         arrayList6.add("4) Lattice Constants : 470, 470, 340 pm");
         arrayList6.add("5) Space group number : 194");
 

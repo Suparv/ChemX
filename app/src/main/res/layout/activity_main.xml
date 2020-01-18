@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/big"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white"
@@ -47,11 +48,12 @@
                         android:layout_width="120dp"
                         android:layout_height="50dp"
                         android:layout_margin="16dp"
-                        android:text="Dark Mode"
 
-                        />
+                        android:onClick="tag"
+                        android:text="Dark Mode" />
 
                     <androidx.cardview.widget.CardView
+                        android:id="@+id/crd1"
                         android:layout_width="550dp"
                         android:layout_height="60dp"
                         android:layout_gravity="center"
@@ -330,6 +332,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="#FF5B36"
+                        android:onClick="Li"
                         android:text="Li"
                         android:textAllCaps="false" />
 

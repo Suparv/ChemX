@@ -109,7 +109,7 @@ public class Helium extends AppCompatActivity {
         ArrayList<String> arrayList6 = new ArrayList<>();
         arrayList6.add("1) Crystal structure : Face Centered Cubic");
         arrayList6.add("2) Grid Parameters : a=3.570 A, c=5.84 A");
-        arrayList6.add("3) Debye temperature : -163.15 C = 110K");
+        arrayList6.add("3) Debye temperature : 110K");
         arrayList6.add("4) Lattice Constants : 424.2, 424.2, 424.2 pm");
         arrayList6.add("5) Space group number : 225");
 

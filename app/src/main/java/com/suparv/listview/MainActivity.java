@@ -1,15 +1,21 @@
 package com.suparv.listview;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
+import androidx.constraintlayout.widget.ConstraintLayout;
 
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.CompoundButton;
 import android.widget.Switch;
+import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+
 
 
     @Override
@@ -17,23 +23,43 @@ public class MainActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//          this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+          this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+
+
     }
 
-//
-//    Switch dark = findViewById(R.id.dkmd);
-//    dark.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener)
-//    {
-//        @Override
-//                public void onCheckedChanged(CompoundButton buttonView, boolean isChecked)
-//        {
-//            if(isChecked == true)
-//            {
-//                View scr = findViewById(R.id.horizontalScrollView);
-//                scr.set
-//            }
-//        }
-//    }
+
+    public void tag (View view)
+    {
+
+        Switch aSwitch;
+        final CardView crd = findViewById(R.id.crd1);
+        final ConstraintLayout cn = findViewById(R.id.big);
+        final TextView txt = findViewById(R.id.textView6);
+
+        aSwitch = findViewById(R.id.dkmd);
+        aSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked)
+            {
+                if (!isChecked)
+                {
+                    txt.setTextColor(Color.BLACK);
+                    cn.setBackgroundColor(Color.WHITE);
+                    crd.setBackgroundColor(Color.WHITE);
+                }
+                else
+                {
+                    txt.setTextColor(Color.WHITE);
+                    crd.setBackgroundColor(Color.BLACK);
+                    cn.setBackgroundColor(Color.BLACK);
+                }
+            }
+        }
+        );
+    }
+
+
 
 
 
