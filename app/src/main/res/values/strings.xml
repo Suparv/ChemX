@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ChemX</string>
+    <string name="title_activity_overview">overview</string>
+    <string name="title_activity_over_view">over_view</string>
+</resources>
