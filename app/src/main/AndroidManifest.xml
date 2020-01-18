@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".Lithium"></activity>
+        <activity android:name=".Sodium"></activity>
+        <activity android:name=".Lithium" />
         <activity android:name=".Helium" />
         <activity android:name=".over_view" />
         <activity android:name=".H_Activity" />

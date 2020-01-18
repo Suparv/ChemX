@@ -29,35 +29,40 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void tag (View view)
-    {
-
-        Switch aSwitch;
-        final CardView crd = findViewById(R.id.crd1);
-        final ConstraintLayout cn = findViewById(R.id.big);
-        final TextView txt = findViewById(R.id.textView6);
-
-        aSwitch = findViewById(R.id.dkmd);
-        aSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked)
-            {
-                if (!isChecked)
-                {
-                    txt.setTextColor(Color.BLACK);
-                    cn.setBackgroundColor(Color.WHITE);
-                    crd.setBackgroundColor(Color.WHITE);
-                }
-                else
-                {
-                    txt.setTextColor(Color.WHITE);
-                    crd.setBackgroundColor(Color.BLACK);
-                    cn.setBackgroundColor(Color.BLACK);
-                }
-            }
-        }
-        );
-    }
+//    public void tag (View view)
+//    {
+//
+//        Switch aSwitch;
+//        final CardView crd = findViewById(R.id.crd1);
+//        final ConstraintLayout cn = findViewById(R.id.big);
+//        final TextView txt = findViewById(R.id.textView6);
+//        final Switch d= findViewById(R.id.dkmd);
+//
+//        aSwitch = findViewById(R.id.dkmd);
+//        aSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+//            @Override
+//            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked)
+//            {
+//                if (isChecked)
+//                {
+//                    txt.setTextColor(Color.WHITE);
+//                    crd.setBackgroundColor(Color.GRAY);
+//                    cn.setBackgroundColor(Color.BLACK);
+//                    d.setBackgroundColor(Color.BLACK);
+//                }
+//                else
+//                {
+//
+//
+//                    txt.setTextColor(Color.BLACK);
+//                    cn.setBackgroundColor(Color.WHITE);
+//                    crd.setBackgroundColor(Color.WHITE);
+//                    d.setBackgroundColor(Color.WHITE);
+//                }
+//            }
+//        }
+//        );
+//    }
 
 
 
@@ -67,7 +72,6 @@ public class MainActivity extends AppCompatActivity {
     {
         Intent intent = new Intent(MainActivity.this, H_Activity.class);
         startActivity(intent);
-
     }
 
 
@@ -75,14 +79,12 @@ public class MainActivity extends AppCompatActivity {
     {
         Intent intent = new Intent(MainActivity.this, Helium.class);
         startActivity(intent);
-
     }
 
     public void Li (View view)
     {
         Intent intent = new Intent(MainActivity.this, Lithium.class);
         startActivity(intent);
-
     }
 
 
