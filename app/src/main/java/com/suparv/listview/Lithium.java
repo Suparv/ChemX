@@ -117,7 +117,7 @@ public class Lithium extends AppCompatActivity {
         arrayList7.add("2) Lifetime : Stable");
         arrayList7.add("3) Decay mode : NA");
         arrayList7.add("4) Neutron mass absorption : NA ");
-        arrayList7.add("5) Neutron cross section : 71 ");
+        arrayList7.add("5) Neutron cross section : 71");
 
         ArrayAdapter arrayAdapter7 = new ArrayAdapter(this, android.R.layout.simple_list_item_1,arrayList7);
         listView7.setAdapter(arrayAdapter7);
