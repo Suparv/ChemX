@@ -93,5 +93,17 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void K (View view)
+    {
+        Intent intent = new Intent(MainActivity.this, Pottasium.class);
+        startActivity(intent);
+    }
+
+    public void Rb (View view)
+    {
+        Intent intent = new Intent(MainActivity.this, Rubidium.class);
+        startActivity(intent);
+    }
+
 
 }

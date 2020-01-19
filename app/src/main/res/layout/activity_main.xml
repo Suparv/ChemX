@@ -492,6 +492,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="#FF5B36"
+                        android:onClick="K"
                         android:text="K"
                         android:textAllCaps="false" />
 
@@ -664,6 +665,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="#FF5B36"
+                        android:onClick="Rb"
                         android:text="Rb"
                         android:textAllCaps="false" />
 
