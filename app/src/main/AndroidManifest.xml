@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".Fr"></activity>
+        <activity android:name=".Mg"></activity>
+        <activity android:name=".Be" />
+        <activity android:name=".Fr" />
         <activity android:name=".Rubidium" />
         <activity android:name=".Pottasium" />
         <activity android:name=".Sodium" />

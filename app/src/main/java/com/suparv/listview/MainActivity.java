@@ -17,13 +17,12 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-          this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+        this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
 
 
     }
@@ -65,51 +64,49 @@ public class MainActivity extends AppCompatActivity {
 //    }
 
 
-
-
-
-    public void H (View view)
-    {
+    public void H(View view) {
         Intent intent = new Intent(MainActivity.this, H_Activity.class);
         startActivity(intent);
     }
 
 
-    public void He (View view)
-    {
+    public void He(View view) {
         Intent intent = new Intent(MainActivity.this, Helium.class);
         startActivity(intent);
     }
 
-    public void Li (View view)
-    {
+    public void Li(View view) {
         Intent intent = new Intent(MainActivity.this, Lithium.class);
         startActivity(intent);
     }
 
-    public void Na (View view)
-    {
+    public void Na(View view) {
         Intent intent = new Intent(MainActivity.this, Sodium.class);
         startActivity(intent);
     }
 
-    public void K (View view)
-    {
+    public void K(View view) {
         Intent intent = new Intent(MainActivity.this, Pottasium.class);
         startActivity(intent);
     }
 
-    public void Rb (View view)
-    {
+    public void Rb(View view) {
         Intent intent = new Intent(MainActivity.this, Rubidium.class);
         startActivity(intent);
     }
 
-    public void Fr (View view)
-    {
+    public void Fr(View view) {
         Intent intent = new Intent(MainActivity.this, Fr.class);
         startActivity(intent);
     }
 
+    public void Be(View view) {
+        Intent intent = new Intent(MainActivity.this, Be.class);
+        startActivity(intent);
+    }
 
+    public void Mg (View view) {
+        Intent intent = new Intent(MainActivity.this, Mg.class);
+        startActivity(intent);
+    }
 }
