@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    android:background="@drawable/b2"
+    android:background="@drawable/background4"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -17,14 +17,15 @@
 
         <TextView
             android:id="@+id/textView17"
-            android:layout_width="140dp"
+            android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="40dp"
             android:layout_marginTop="50dp"
             android:layout_weight="1"
+            android:backgroundTint="#00E91E63"
             android:fontFamily="@font/aldrich"
-            android:text="Hydrogen"
-            android:textColor="@android:color/white"
+            android:text="Calcium"
+            android:textColor="@android:color/black"
             android:textSize="37sp" />
 
         <TextView
@@ -33,7 +34,7 @@
             android:layout_height="4dp"
             android:layout_marginTop="55dp"
             android:layout_weight="1"
-            android:background="@android:color/white" />
+            android:background="@android:color/black" />
     </LinearLayout>
 
     <ScrollView
@@ -60,7 +61,7 @@
                     android:layout_weight="1"
                     android:backgroundTint="@android:color/background_light"
                     android:hapticFeedbackEnabled="false"
-                    app:cardBackgroundColor="@android:color/black"
+                    app:cardBackgroundColor="@android:color/white"
                     app:cardCornerRadius="30dp"
                     app:cardElevation="15dp"
                     app:cardMaxElevation="15dp"
