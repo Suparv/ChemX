@@ -105,5 +105,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void Fr (View view)
+    {
+        Intent intent = new Intent(MainActivity.this, Fr.class);
+        startActivity(intent);
+    }
+
 
 }
