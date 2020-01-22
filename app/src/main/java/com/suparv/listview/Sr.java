@@ -29,9 +29,9 @@ public class Sr extends AppCompatActivity {
 
         listView1 = findViewById(R.id.list1);
         ArrayList<String> arrayList1 = new ArrayList<>();
-        arrayList1.add("1) Latin name : Beryllium");
-        arrayList1.add("2) English name : Beryllium");
-        arrayList1.add("3) Colour : Slate Gray");
+        arrayList1.add("1) Latin name : Strontium");
+        arrayList1.add("2) English name : Strontium");
+        arrayList1.add("3) Colour : Slate Silver");
         arrayList1.add("4) Discovered by : Louis-Nicolas Vauquelin ");
         arrayList1.add("5) Year discovered : 1798 ");
         arrayList1.add("6) Electron : 4");
