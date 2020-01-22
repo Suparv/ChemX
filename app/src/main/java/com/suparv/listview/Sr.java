@@ -31,12 +31,12 @@ public class Sr extends AppCompatActivity {
         ArrayList<String> arrayList1 = new ArrayList<>();
         arrayList1.add("1) Latin name : Strontium");
         arrayList1.add("2) English name : Strontium");
-        arrayList1.add("3) Colour : Slate Silver");
-        arrayList1.add("4) Discovered by : Louis-Nicolas Vauquelin ");
-        arrayList1.add("5) Year discovered : 1798 ");
-        arrayList1.add("6) Electron : 4");
-        arrayList1.add("7) Proton : 4");
-        arrayList1.add("8) Neutron : 5");
+        arrayList1.add("3) Colour : Silver");
+        arrayList1.add("4) Discovered by : Adair Crawford ");
+        arrayList1.add("5) Year discovered : 1790 ");
+        arrayList1.add("6) Electron : 38");
+        arrayList1.add("7) Proton : 38");
+        arrayList1.add("8) Neutron : 50");
 
 
         ArrayAdapter arrayAdapter1 = new ArrayAdapter(this, android.R.layout.simple_list_item_1,arrayList1);
@@ -47,16 +47,16 @@ public class Sr extends AppCompatActivity {
 
         listView2 = findViewById(R.id.list2);
         ArrayList<String> arrayList2 = new ArrayList<>();
-        arrayList2.add("1) Melting point : 1287 C = 1560.15 K");
-        arrayList2.add("2) Boiling point : 2970 C = 3243.5 K");
+        arrayList2.add("1) Melting point : 777 C = 1050.15 K");
+        arrayList2.add("2) Boiling point : 1382 C = 1655.15.15 K");
         arrayList2.add("3) Phase at STP : Solid");
-        arrayList2.add("4) Thermal conductivity : 190 W/(m K)");
-        arrayList2.add("5) Thermal Expansion : 0.0000113 /K");
-        arrayList2.add("6) Heat of Fusion : 7.95 kJ/mol");
-        arrayList2.add("7) Heat of vapourisation : 297 kJ/mol");
-        arrayList2.add("8) Young modulus : 287 GPa");
-        arrayList2.add("9) Sheer modulus : 132");
-        arrayList2.add("10 Bulk modulus : 130 GPa");
+        arrayList2.add("4) Thermal conductivity : 35 W/(m K)");
+        arrayList2.add("5) Thermal Expansion : 0.0000225 /K");
+        arrayList2.add("6) Heat of Fusion : 8 kJ/mol");
+        arrayList2.add("7) Heat of vapourisation : 137 kJ/mol");
+        arrayList2.add("8) Young modulus : NA GPa");
+        arrayList2.add("9) Sheer modulus : 6.1 GPA");
+        arrayList2.add("10 Bulk modulus : NA GPa");
 
         ArrayAdapter arrayAdapter2 = new ArrayAdapter(this,android.R.layout.simple_list_item_1,arrayList2);
         listView2.setAdapter(arrayAdapter2);
@@ -65,11 +65,11 @@ public class Sr extends AppCompatActivity {
 
         listView3 = findViewById(R.id.list3);
         ArrayList<String> arrayList3 = new ArrayList<>();
-        arrayList3.add("1) Atomic number : 4");
-        arrayList3.add("2) Atomic mass : 9.012 amu");
-        arrayList3.add("3) Atomic radius : 112 pm");
-        arrayList3.add("4) Van der  Waals Radius : NA pm");
-        arrayList3.add("5) Covalent radius : 96 pm");
+        arrayList3.add("1) Atomic number : 38");
+        arrayList3.add("2) Atomic mass : 87.62 amu");
+        arrayList3.add("3) Atomic radius : 219 pm");
+        arrayList3.add("4) Van der  Waals Radius : 249 pm");
+        arrayList3.add("5) Covalent radius : 192 pm");
         arrayList3.add("6) Oxidation State : +1, +2");
 
         ArrayAdapter arrayAdapter3 = new ArrayAdapter(this,android.R.layout.simple_list_item_1,arrayList3);
@@ -78,9 +78,9 @@ public class Sr extends AppCompatActivity {
 
         listView4 = findViewById(R.id.list4);
         ArrayList<String> arrayList4 = new ArrayList<>();
-        arrayList4.add("1) Electronegativity : 1.57 (Pauling Scale)");
-        arrayList4.add("2) Electron Affinity : 0 kJ/mol");
-        arrayList4.add("3) Ionistation Energy : 899.5 kJ/mol");
+        arrayList4.add("1) Electronegativity : 0.95 (Pauling Scale)");
+        arrayList4.add("2) Electron Affinity : 5.03 kJ/mol");
+        arrayList4.add("3) Ionistation Energy : 549.5 kJ/mol");
         arrayList4.add("4) Valence : 2");
 
         ArrayAdapter arrayAdapter4  =new ArrayAdapter(this, android.R.layout.simple_list_item_1, arrayList4);
@@ -90,10 +90,10 @@ public class Sr extends AppCompatActivity {
         ArrayList<String> arrayList5 = new ArrayList<>();
         arrayList5.add("1) Critical Temperature : NA");
         arrayList5.add("2) Critical Pressure : NA");
-        arrayList5.add("3) CAS number : CAS7440-41-7");
+        arrayList5.add("3) CAS number : CAS7440-24-6");
         arrayList5.add("4) Refractive Index : NA");
-        arrayList5.add("5) Speed of Sound : 13000 m/s");
-        arrayList5.add("6) Magnetic Type : Diamagnetic");
+        arrayList5.add("5) Speed of Sound : NA");
+        arrayList5.add("6) Magnetic Type : Paramagnetic");
 
         ArrayAdapter arrayAdapter5 = new ArrayAdapter(this,android.R.layout.simple_list_item_1,arrayList5);
         listView5.setAdapter(arrayAdapter5);
@@ -101,11 +101,11 @@ public class Sr extends AppCompatActivity {
 
         listView6 = findViewById(R.id.list6);
         ArrayList<String> arrayList6 = new ArrayList<>();
-        arrayList6.add("1) Crystal structure : Simple Hexagonal");
-        arrayList6.add("2) Debye temperature : 1000 K");
-        arrayList6.add("3) Lattice Constants : 228.58, 228.58, 358.43 pm");
-        arrayList6.add("4) Space group number : 194");
-        arrayList6.add("5) Lattice angles : 90,90,120 (degree)");
+        arrayList6.add("1) Crystal structure : Face Centeerd Cubic");
+        arrayList6.add("2) Debye temperature : 147 K");
+        arrayList6.add("3) Lattice Constants : 608.49, 608.49, 608.49 pm");
+        arrayList6.add("4) Space group number : 225");
+        arrayList6.add("5) Lattice angles : 90,90,90 (degree)");
 
 
         ArrayAdapter arrayAdapter6 = new ArrayAdapter(this,android.R.layout.simple_list_item_1,arrayList6);
@@ -117,8 +117,8 @@ public class Sr extends AppCompatActivity {
         arrayList7.add("1) Half life : Stable");
         arrayList7.add("2) Lifetime : Stable");
         arrayList7.add("3) Decay mode : NA");
-        arrayList7.add("4) Neutron mass absorption : 0.00003 ");
-        arrayList7.add("5) Neutron cross section : 0.0092");
+        arrayList7.add("4) Neutron mass absorption : 0.0005 ");
+        arrayList7.add("5) Neutron cross section : 1.2");
 
         ArrayAdapter arrayAdapter7 = new ArrayAdapter(this, android.R.layout.simple_list_item_1,arrayList7);
         listView7.setAdapter(arrayAdapter7);

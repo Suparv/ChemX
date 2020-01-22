@@ -55,7 +55,7 @@ public class Be extends AppCompatActivity {
         arrayList2.add("6) Heat of Fusion : 7.95 kJ/mol");
         arrayList2.add("7) Heat of vapourisation : 297 kJ/mol");
         arrayList2.add("8) Young modulus : 287 GPa");
-        arrayList2.add("9) Sheer modulus : 132");
+        arrayList2.add("9) Sheer modulus : 132 GPa");
         arrayList2.add("10 Bulk modulus : 130 GPa");
 
         ArrayAdapter arrayAdapter2 = new ArrayAdapter(this,android.R.layout.simple_list_item_1,arrayList2);

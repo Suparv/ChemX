@@ -675,6 +675,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="#F5F500"
+                        android:onClick="Sr"
                         android:text="Sr"
                         android:textAllCaps="false" />
 
