@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
+import android.view.WindowManager;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -26,7 +27,7 @@ public class Lithium extends AppCompatActivity {
         setContentView(R.layout.activity_lithium);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
-
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         listView1 = findViewById(R.id.list1);
         ArrayList<String> arrayList1 = new ArrayList<>();
         arrayList1.add("1) Latin name : Lithium");

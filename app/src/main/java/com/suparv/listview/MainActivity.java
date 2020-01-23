@@ -1,25 +1,22 @@
 package com.suparv.listview;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
-import androidx.constraintlayout.widget.ConstraintLayout;
-
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
-import android.graphics.Color;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.view.WindowManager;
-import android.widget.CompoundButton;
-import android.widget.Switch;
-import android.widget.TextView;
-import android.widget.Toast;
+
 
 public class MainActivity extends AppCompatActivity {
 
 
+    private static int SPLASH_SCREEN = 5000;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
 
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
@@ -28,43 +25,25 @@ public class MainActivity extends AppCompatActivity {
         this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
 
 
+        Handler handler = new Handler();
+
+        handler.postDelayed(new Runnable()
+        {
+            @Override
+            public void run() {
+                Intent intent = new Intent(MainActivity.this, Table.class);
+                startActivity(intent);
+                finish();
+            }
+        }, 4000);
+
+
+        
+        
+        
+
     }
 
-
-//    public void tag (View view)
-//    {
-//
-//        Switch aSwitch;
-//        final CardView crd = findViewById(R.id.crd1);
-//        final ConstraintLayout cn = findViewById(R.id.big);
-//        final TextView txt = findViewById(R.id.textView6);
-//        final Switch d= findViewById(R.id.dkmd);
-//
-//        aSwitch = findViewById(R.id.dkmd);
-//        aSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-//            @Override
-//            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked)
-//            {
-//                if (isChecked)
-//                {
-//                    txt.setTextColor(Color.WHITE);
-//                    crd.setBackgroundColor(Color.GRAY);
-//                    cn.setBackgroundColor(Color.BLACK);
-//                    d.setBackgroundColor(Color.BLACK);
-//                }
-//                else
-//                {
-//
-//
-//                    txt.setTextColor(Color.BLACK);
-//                    cn.setBackgroundColor(Color.WHITE);
-//                    crd.setBackgroundColor(Color.WHITE);
-//                    d.setBackgroundColor(Color.WHITE);
-//                }
-//            }
-//        }
-//        );
-//    }
 
 
     public void H(View view) {
