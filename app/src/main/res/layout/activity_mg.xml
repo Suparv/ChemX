@@ -26,11 +26,11 @@
             android:fontFamily="@font/aldrich"
             android:text="Magnesium"
             android:textColor="@android:color/black"
-            android:textSize="37sp" />
+            android:textSize="37dp" />
 
         <TextView
             android:id="@+id/textView18"
-            android:layout_width="2sp"
+            android:layout_width="2dp"
             android:layout_height="4dp"
             android:layout_marginTop="55dp"
             android:layout_weight="1"
@@ -84,7 +84,7 @@
                         android:gravity="center"
                         android:text="Overview"
                         android:textColor="@android:color/black"
-                        android:textSize="40sp" />
+                        android:textSize="40dp" />
 
                     <ListView
                         android:id="@+id/list1"
@@ -135,7 +135,7 @@
                         android:text="Atomic Prp
 "
                         android:textColor="@android:color/black"
-                        android:textSize="40sp" />
+                        android:textSize="40dp" />
 
                     <ListView
                         android:id="@+id/list3"
@@ -182,7 +182,7 @@
                         android:padding="5dp"
                         android:text="Physical Prp"
                         android:textColor="@android:color/black"
-                        android:textSize="40sp" />
+                        android:textSize="40dp" />
 
                     <ListView
                         android:id="@+id/list2"
@@ -232,7 +232,7 @@
                         android:padding="5dp"
                         android:text="Reactivity"
                         android:textColor="@android:color/black"
-                        android:textSize="40sp" />
+                        android:textSize="40dp" />
 
                     <ListView
                         android:id="@+id/list4"
@@ -281,7 +281,7 @@
                         android:padding="5dp"
                         android:text="Grid Parameter"
                         android:textColor="@android:color/black"
-                        android:textSize="37sp" />
+                        android:textSize="37dp" />
 
                     <ListView
                         android:id="@+id/list6"
@@ -331,7 +331,7 @@
                         android:padding="5dp"
                         android:text="Nuclear Prp"
                         android:textColor="@android:color/black"
-                        android:textSize="40sp" />
+                        android:textSize="40dp" />
 
                     <ListView
                         android:id="@+id/list7"
@@ -381,7 +381,7 @@
                         android:padding="5dp"
                         android:text="Trivia"
                         android:textColor="@android:color/black"
-                        android:textSize="40sp" />
+                        android:textSize="40dp" />
 
                     <ListView
                         android:id="@+id/list5"

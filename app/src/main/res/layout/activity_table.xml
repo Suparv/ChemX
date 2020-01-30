@@ -15,8 +15,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.48000002">
+        app:layout_constraintTop_toTopOf="parent">
 
         <ScrollView
             android:id="@+id/scrollView"
@@ -43,7 +42,7 @@
                     android:layout_width="550dp"
                     android:layout_height="60dp"
                     android:layout_gravity="center"
-                    android:layout_margin="16dp"
+                    android:layout_margin="15dp"
                     android:background="@drawable/bg"
                     app:cardCornerRadius="10dp"
                     app:cardElevation="20dp"
@@ -59,7 +58,7 @@
                         android:gravity="center"
                         android:text="Periodic Table Of Elements"
                         android:textColor="@android:color/black"
-                        android:textSize="35sp"
+                        android:textSize="35dp"
                         android:textStyle="bold" />
                 </androidx.cardview.widget.CardView>
 
@@ -77,7 +76,7 @@
                         android:text="1"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
-                        android:textSize="14sp"
+                        android:textSize="15dp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -88,7 +87,7 @@
                         android:text="2"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
-                        android:textSize="14sp"
+                        android:textSize="15dp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -99,7 +98,7 @@
                         android:text="3"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
-                        android:textSize="14sp"
+                        android:textSize="15dp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -110,7 +109,7 @@
                         android:text="4"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
-                        android:textSize="14sp"
+                        android:textSize="15dp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -121,7 +120,7 @@
                         android:text="5"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
-                        android:textSize="14sp"
+                        android:textSize="15dp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -132,7 +131,7 @@
                         android:text="6"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
-                        android:textSize="14sp"
+                        android:textSize="15dp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -143,7 +142,7 @@
                         android:text="7"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
-                        android:textSize="14sp"
+                        android:textSize="15dp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -154,7 +153,7 @@
                         android:text="8"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
-                        android:textSize="14sp"
+                        android:textSize="15dp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -165,7 +164,7 @@
                         android:text="9"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
-                        android:textSize="14sp"
+                        android:textSize="15dp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -176,7 +175,7 @@
                         android:text="10"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
-                        android:textSize="14sp"
+                        android:textSize="15dp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -187,7 +186,7 @@
                         android:text="11"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
-                        android:textSize="12sp"
+                        android:textSize="12dp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -198,7 +197,7 @@
                         android:text="12"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
-                        android:textSize="12sp"
+                        android:textSize="12dp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -209,7 +208,7 @@
                         android:text="13"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
-                        android:textSize="12sp"
+                        android:textSize="12dp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -220,7 +219,7 @@
                         android:text="14"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
-                        android:textSize="12sp"
+                        android:textSize="12dp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -231,7 +230,7 @@
                         android:text="15"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
-                        android:textSize="12sp"
+                        android:textSize="12dp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -242,7 +241,7 @@
                         android:text="16"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
-                        android:textSize="12sp"
+                        android:textSize="12dp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -253,7 +252,7 @@
                         android:text="17"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
-                        android:textSize="12sp"
+                        android:textSize="12dp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -264,7 +263,7 @@
                         android:text="18"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
-                        android:textSize="12sp"
+                        android:textSize="12dp"
                         android:textStyle="bold" />
 
                 </LinearLayout>
@@ -285,7 +284,9 @@
                         android:backgroundTint="#FF5B36"
                         android:elevation="10dp"
                         android:onClick="H"
-                        android:text="H" />
+                        android:text="H"
+                        android:textSize="15dp"
+                        />
 
                     <TextView
                         android:id="@+id/textView2"
@@ -301,7 +302,8 @@
                         android:backgroundTint="#F800FF83"
                         android:onClick="He"
                         android:text="He"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                 </LinearLayout>
 
@@ -319,7 +321,8 @@
                         android:backgroundTint="#FF5B36"
                         android:onClick="Li"
                         android:text="Li"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button8"
@@ -329,7 +332,8 @@
                         android:backgroundTint="#F5F500"
                         android:onClick="Be"
                         android:text="Be"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <TextView
                         android:id="@+id/textView3"
@@ -343,7 +347,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="#3CBC3C"
-                        android:text="B" />
+                        android:text="B"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button10"
@@ -351,7 +356,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="#449E6F"
-                        android:text="C" />
+                        android:text="C"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button11"
@@ -359,7 +365,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@android:color/holo_blue_dark"
-                        android:text="N" />
+                        android:text="N"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button12"
@@ -367,7 +374,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="#EE82EE"
-                        android:text="O" />
+                        android:text="O"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button13"
@@ -375,7 +383,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="#BF68FF"
-                        android:text="F" />
+                        android:text="F"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button14"
@@ -384,7 +393,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#F800FF83"
                         android:text="Ne"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                 </LinearLayout>
 
@@ -403,7 +413,8 @@
                         android:backgroundTint="#FF5B36"
                         android:onClick="Na"
                         android:text="Na"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button16"
@@ -414,7 +425,7 @@
                         android:onClick="Mg"
                         android:text="Mg"
                         android:textAllCaps="false"
-                        android:textSize="13sp" />
+                        android:textSize="14dp" />
 
                     <TextView
                         android:id="@+id/textView4"
@@ -429,7 +440,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#3CBC3C"
                         android:text="Al"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button18"
@@ -438,7 +450,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#449E6F"
                         android:text="Si"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button19"
@@ -446,7 +459,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@android:color/holo_blue_dark"
-                        android:text="P" />
+                        android:text="P"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button20"
@@ -455,7 +469,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#EE82EE"
                         android:text="Cl"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button21"
@@ -463,7 +478,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="#BF68FF"
-                        android:text="S" />
+                        android:text="S"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button22"
@@ -472,7 +488,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#F800FF83"
                         android:text="Ar"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
 
                 </LinearLayout>
@@ -493,7 +510,8 @@
                         android:backgroundTint="#FF5B36"
                         android:onClick="K"
                         android:text="K"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button24"
@@ -503,7 +521,8 @@
                         android:backgroundTint="#F5F500"
                         android:onClick="Ca"
                         android:text="Ca"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button25"
@@ -512,7 +531,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="	#D2691E"
                         android:text="Sc"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button26"
@@ -521,7 +541,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="	#D2691E"
                         android:text="Ti"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button27"
@@ -530,7 +551,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="	#D2691E"
                         android:text="V"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button28"
@@ -539,7 +561,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="	#D2691E"
                         android:text="Cr"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button29"
@@ -549,7 +572,7 @@
                         android:backgroundTint="	#D2691E"
                         android:text="Mn"
                         android:textAllCaps="false"
-                        android:textSize="13sp" />
+                        android:textSize="14dp" />
 
                     <Button
                         android:id="@+id/button30"
@@ -558,7 +581,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="	#D2691E"
                         android:text="Fe"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button31"
@@ -567,7 +591,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="	#D2691E"
                         android:text="Co"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button32"
@@ -576,7 +601,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="	#D2691E"
                         android:text="Ni"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button33"
@@ -585,7 +611,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="	#D2691E"
                         android:text="Cu"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button34"
@@ -594,7 +621,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="	#D2691E"
                         android:text="Zn"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button35"
@@ -603,7 +631,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#3CBC3C"
                         android:text="Ga"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button36"
@@ -612,7 +641,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#449E6F"
                         android:text="Ge"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button37"
@@ -621,7 +651,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="@android:color/holo_blue_dark"
                         android:text="As"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button38"
@@ -630,7 +661,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#EE82EE"
                         android:text="Se"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button39"
@@ -639,7 +671,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#BF68FF"
                         android:text="Br"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button40"
@@ -648,7 +681,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#F800FF83"
                         android:text="Kr"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                 </LinearLayout>
 
@@ -667,7 +701,8 @@
                         android:backgroundTint="#FF5B36"
                         android:onClick="Rb"
                         android:text="Rb"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button41"
@@ -677,7 +712,8 @@
                         android:backgroundTint="#F5F500"
                         android:onClick="Sr"
                         android:text="Sr"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button42"
@@ -686,7 +722,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="	#D2691E"
                         android:text="Y"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button43"
@@ -695,7 +732,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="	#D2691E"
                         android:text="Zr"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button44"
@@ -704,7 +742,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="	#D2691E"
                         android:text="Nb"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button45"
@@ -714,7 +753,7 @@
                         android:backgroundTint="	#D2691E"
                         android:text="Mo"
                         android:textAllCaps="false"
-                        android:textSize="13sp" />
+                        android:textSize="14dp"/>
 
                     <Button
                         android:id="@+id/button46"
@@ -723,7 +762,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="	#D2691E"
                         android:text="Tc"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button47"
@@ -732,7 +772,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="	#D2691E"
                         android:text="Ru"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button48"
@@ -741,7 +782,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="	#D2691E"
                         android:text="Rh"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button49"
@@ -750,7 +792,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="	#D2691E"
                         android:text="Pd"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button50"
@@ -759,7 +802,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="	#D2691E"
                         android:text="Ag"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button51"
@@ -768,7 +812,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="	#D2691E"
                         android:text="Cd"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button52"
@@ -777,7 +822,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#3CBC3C"
                         android:text="In"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button53"
@@ -786,7 +832,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#449E6F"
                         android:text="Sn"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button54"
@@ -795,7 +842,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="@android:color/holo_blue_dark"
                         android:text="Sb"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button55"
@@ -804,7 +852,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#EE82EE"
                         android:text="Te"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button56"
@@ -813,7 +862,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#BF68FF"
                         android:text="I"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button6"
@@ -822,7 +872,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#F800FF83"
                         android:text="Xe"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
                 </LinearLayout>
 
 
@@ -839,7 +890,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#FF5B36"
                         android:text="Cs"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button58"
@@ -848,7 +900,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#F5F500"
                         android:text="Ba"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button59"
@@ -856,7 +909,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="#8BAADA"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button60"
@@ -865,7 +919,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="	#D2691E"
                         android:text="Hf"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button61"
@@ -874,7 +929,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="	#D2691E"
                         android:text="Ta"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button62"
@@ -883,7 +939,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="	#D2691E"
                         android:text="W"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button63"
@@ -892,7 +949,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="	#D2691E"
                         android:text="Re"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button64"
@@ -901,7 +959,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="	#D2691E"
                         android:text="Os"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button65"
@@ -910,7 +969,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="	#D2691E"
                         android:text="Ir"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button66"
@@ -919,7 +979,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="	#D2691E"
                         android:text="Pt"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button67"
@@ -928,7 +989,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="	#D2691E"
                         android:text="Au"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button68"
@@ -937,7 +999,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="	#D2691E"
                         android:text="Hg"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button69"
@@ -946,7 +1009,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#3CBC3C"
                         android:text="Ti"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button70"
@@ -955,7 +1019,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#449E6F"
                         android:text="Pb"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button71"
@@ -964,7 +1029,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="@android:color/holo_blue_dark"
                         android:text="Bi"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button72"
@@ -973,7 +1039,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#EE82EE"
                         android:text="Po"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button73"
@@ -982,7 +1049,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#BF68FF"
                         android:text="At"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button74"
@@ -991,7 +1059,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#F800FF83"
                         android:text="Rn"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
                 </LinearLayout>
 
 
@@ -1009,7 +1078,8 @@
                         android:backgroundTint="#FF5B36"
                         android:onClick="Fr"
                         android:text="Fr"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button76"
@@ -1018,7 +1088,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#F5F500"
                         android:text="Ra"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button77"
@@ -1026,7 +1097,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="#8BAADA"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button78"
@@ -1035,7 +1107,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="	#D2691E"
                         android:text="Rf"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button79"
@@ -1044,7 +1117,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="	#D2691E"
                         android:text="Db"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button80"
@@ -1053,7 +1127,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="	#D2691E"
                         android:text="Sg"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button81"
@@ -1062,7 +1137,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="	#D2691E"
                         android:text="Bh"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button82"
@@ -1071,7 +1147,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="	#D2691E"
                         android:text="Hs"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button83"
@@ -1080,7 +1157,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="	#D2691E"
                         android:text="Mt"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button84"
@@ -1089,7 +1167,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="	#D2691E"
                         android:text="Ds"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button85"
@@ -1098,7 +1177,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="	#D2691E"
                         android:text="Rg"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button86"
@@ -1107,7 +1187,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="	#D2691E"
                         android:text="Cn"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button87"
@@ -1116,7 +1197,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#3CBC3C"
                         android:text="Nh"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button88"
@@ -1125,7 +1207,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#449E6F"
                         android:text="Fl"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button89"
@@ -1135,7 +1218,7 @@
                         android:backgroundTint="@android:color/holo_blue_dark"
                         android:text="Mc"
                         android:textAllCaps="false"
-                        android:textSize="13sp" />
+                        android:textSize="14dp" />
 
                     <Button
                         android:id="@+id/button90"
@@ -1144,7 +1227,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#EE82EE"
                         android:text="Lv"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button91"
@@ -1153,7 +1237,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#BF68FF"
                         android:text="Ts"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button92"
@@ -1162,7 +1247,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#F800FF83"
                         android:text="Og"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -1185,7 +1271,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#8BAADA"
                         android:text="La"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button"
@@ -1195,7 +1282,8 @@
                         android:backgroundTint="#8BAADA"
                         android:text="Ce"
                         android:textAllCaps="false"
-                        android:textColorHighlight="#E1AD01" />
+                        android:textColorHighlight="#E1AD01"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button2"
@@ -1204,7 +1292,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#8BAADA"
                         android:text="Pr"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button93"
@@ -1213,7 +1302,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#8BAADA"
                         android:text="Nd"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button94"
@@ -1223,7 +1313,7 @@
                         android:backgroundTint="#8BAADA"
                         android:text="Pm"
                         android:textAllCaps="false"
-                        android:textSize="12sp" />
+                        android:textSize="13dp" />
 
                     <Button
                         android:id="@+id/button95"
@@ -1233,7 +1323,7 @@
                         android:backgroundTint="#8BAADA"
                         android:text="Sm"
                         android:textAllCaps="false"
-                        android:textSize="12sp" />
+                        android:textSize="12dp" />
 
                     <Button
                         android:id="@+id/button96"
@@ -1242,7 +1332,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#8BAADA"
                         android:text="Eu"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button97"
@@ -1251,7 +1342,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#8BAADA"
                         android:text="Gd"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button98"
@@ -1260,7 +1352,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#8BAADA"
                         android:text="Tb"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button99"
@@ -1269,7 +1362,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#8BAADA"
                         android:text="Dy"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button100"
@@ -1278,7 +1372,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#8BAADA"
                         android:text="Ho"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button101"
@@ -1287,7 +1382,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#8BAADA"
                         android:text="Er"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp" />
 
                     <Button
                         android:id="@+id/button102"
@@ -1297,7 +1393,7 @@
                         android:backgroundTint="#8BAADA"
                         android:text="Tm"
                         android:textAllCaps="false"
-                        android:textSize="12sp" />
+                        android:textSize="13dp" />
 
                     <Button
                         android:id="@+id/button103"
@@ -1306,7 +1402,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#8BAADA"
                         android:text="Yb"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button104"
@@ -1315,7 +1412,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#8BAADA"
                         android:text="Lu"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
                 </LinearLayout>
 
 
@@ -1338,7 +1436,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#8BAADA"
                         android:text="Ac"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button106"
@@ -1347,7 +1446,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#8BAADA"
                         android:text="Th"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button107"
@@ -1356,7 +1456,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#8BAADA"
                         android:text="Pa"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button108"
@@ -1366,7 +1467,7 @@
                         android:backgroundTint="#8BAADA"
                         android:text="U"
                         android:textAllCaps="false"
-                        android:textSize="13sp" />
+                        android:textSize="15dp" />
 
                     <Button
                         android:id="@+id/button109"
@@ -1376,7 +1477,7 @@
                         android:backgroundTint="#8BAADA"
                         android:text="Np"
                         android:textAllCaps="false"
-                        android:textSize="13sp" />
+                        android:textSize="15dp" />
 
                     <Button
                         android:id="@+id/button110"
@@ -1385,7 +1486,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#8BAADA"
                         android:text="Pu"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button111"
@@ -1395,7 +1497,7 @@
                         android:backgroundTint="#8BAADA"
                         android:text="Am"
                         android:textAllCaps="false"
-                        android:textSize="12sp" />
+                        android:textSize="12dp" />
 
                     <Button
                         android:id="@+id/button112"
@@ -1405,7 +1507,7 @@
                         android:backgroundTint="#8BAADA"
                         android:text="Cm"
                         android:textAllCaps="false"
-                        android:textSize="12sp" />
+                        android:textSize="12dp" />
 
                     <Button
                         android:id="@+id/button113"
@@ -1414,7 +1516,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#8BAADA"
                         android:text="Bk"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button114"
@@ -1423,7 +1526,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#8BAADA"
                         android:text="Cf"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button115"
@@ -1432,7 +1536,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#8BAADA"
                         android:text="Es"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button121"
@@ -1442,7 +1547,7 @@
                         android:backgroundTint="#8BAADA"
                         android:text="Fm"
                         android:textAllCaps="false"
-                        android:textSize="12sp" />
+                        android:textSize="14dp" />
 
                     <Button
                         android:id="@+id/button116"
@@ -1452,7 +1557,7 @@
                         android:backgroundTint="#8BAADA"
                         android:text="Md"
                         android:textAllCaps="false"
-                        android:textSize="12sp" />
+                        android:textSize="12dp" />
 
                     <Button
                         android:id="@+id/button117"
@@ -1461,7 +1566,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#8BAADA"
                         android:text="No"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
 
                     <Button
                         android:id="@+id/button118"
@@ -1470,7 +1576,8 @@
                         android:layout_weight="1"
                         android:backgroundTint="#8BAADA"
                         android:text="Lr"
-                        android:textAllCaps="false" />
+                        android:textAllCaps="false"
+                        android:textSize="15dp"/>
                 </LinearLayout>
 
 

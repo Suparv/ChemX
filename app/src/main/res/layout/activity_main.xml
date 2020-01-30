@@ -7,7 +7,7 @@
     android:background="#254E4B4B">
 
     <ImageView
-        android:id="@+id/sp"
+        android:id="@+id/dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:alpha="1"
