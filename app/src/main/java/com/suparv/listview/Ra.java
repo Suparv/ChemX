@@ -10,7 +10,7 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class Ba extends AppCompatActivity {
+public class Ra extends AppCompatActivity {
 
     ListView listView1;
     ListView listView2;
@@ -20,10 +20,11 @@ public class Ba extends AppCompatActivity {
     ListView listView6;
     ListView listView7;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ba);
+        setContentView(R.layout.activity_ra);
 
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
@@ -31,14 +32,14 @@ public class Ba extends AppCompatActivity {
 
         listView1 = findViewById(R.id.list1);
         ArrayList<String> arrayList1 = new ArrayList<>();
-        arrayList1.add("1) Latin name : Barium");
-        arrayList1.add("2) English name : Barium");
+        arrayList1.add("1) Latin name : Radium");
+        arrayList1.add("2) English name : Radium");
         arrayList1.add("3) Colour : Silver");
-        arrayList1.add("4) Discovered by : Humphry Davy ");
-        arrayList1.add("5) Year discovered : 1774 ");
-        arrayList1.add("6) Electron : 56");
-        arrayList1.add("7) Proton : 56");
-        arrayList1.add("8) Neutron : 81");
+        arrayList1.add("4) Discovered by : Pierre & Marrie Curie ");
+        arrayList1.add("5) Year discovered : 1898 ");
+        arrayList1.add("6) Electron : 88");
+        arrayList1.add("7) Proton : 88");
+        arrayList1.add("8) Neutron : 138");
 
 
         ArrayAdapter arrayAdapter1 = new ArrayAdapter(this, android.R.layout.simple_list_item_1,arrayList1);
@@ -49,16 +50,16 @@ public class Ba extends AppCompatActivity {
 
         listView2 = findViewById(R.id.list2);
         ArrayList<String> arrayList2 = new ArrayList<>();
-        arrayList2.add("1) Melting point : 777 C = 1050.15 K");
-        arrayList2.add("2) Boiling point : 1382 C = 1655.15.15 K");
+        arrayList2.add("1) Melting point : 696.0 C = 969.15 K");
+        arrayList2.add("2) Boiling point : 1737.0 C = 969.15 K");
         arrayList2.add("3) Phase at STP : Solid");
-        arrayList2.add("4) Thermal conductivity : 18 W/(m K)");
-        arrayList2.add("5) Thermal Expansion : 0.0000206 /K");
+        arrayList2.add("4) Thermal conductivity : 35 W/(m K)");
+        arrayList2.add("5) Thermal Expansion : 0.0000225 /K");
         arrayList2.add("6) Heat of Fusion : 8 kJ/mol");
-        arrayList2.add("7) Heat of vapourisation : 140 kJ/mol");
-        arrayList2.add("8) Young modulus : 13 GPa");
-        arrayList2.add("9) Sheer modulus : 4.9 GPA");
-        arrayList2.add("10 Bulk modulus : 9.4 GPa");
+        arrayList2.add("7) Heat of vapourisation : 137 kJ/mol");
+        arrayList2.add("8) Young modulus : NA GPa");
+        arrayList2.add("9) Sheer modulus : 6.1 GPA");
+        arrayList2.add("10 Bulk modulus : NA GPa");
 
         ArrayAdapter arrayAdapter2 = new ArrayAdapter(this,android.R.layout.simple_list_item_1,arrayList2);
         listView2.setAdapter(arrayAdapter2);
@@ -124,6 +125,7 @@ public class Ba extends AppCompatActivity {
 
         ArrayAdapter arrayAdapter7 = new ArrayAdapter(this, android.R.layout.simple_list_item_1,arrayList7);
         listView7.setAdapter(arrayAdapter7);
+
 
     }
 }

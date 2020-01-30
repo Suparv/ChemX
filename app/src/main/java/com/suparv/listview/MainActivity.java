@@ -102,4 +102,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void Ba (View view) {
+        Intent intent = new Intent(MainActivity.this, Ba.class);
+        startActivity(intent);
+    }
+
 }

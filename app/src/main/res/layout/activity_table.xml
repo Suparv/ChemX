@@ -899,9 +899,10 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="#F5F500"
+                        android:onClick="Ba"
                         android:text="Ba"
                         android:textAllCaps="false"
-                        android:textSize="15dp"/>
+                        android:textSize="15dp" />
 
                     <Button
                         android:id="@+id/button59"
