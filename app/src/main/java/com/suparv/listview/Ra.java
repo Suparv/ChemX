@@ -53,13 +53,13 @@ public class Ra extends AppCompatActivity {
         arrayList2.add("1) Melting point : 696.0 C = 969.15 K");
         arrayList2.add("2) Boiling point : 1737.0 C = 969.15 K");
         arrayList2.add("3) Phase at STP : Solid");
-        arrayList2.add("4) Thermal conductivity : 35 W/(m K)");
-        arrayList2.add("5) Thermal Expansion : 0.0000225 /K");
+        arrayList2.add("4) Thermal conductivity : 19 W/(m K)");
+        arrayList2.add("5) Thermal Expansion : NA");
         arrayList2.add("6) Heat of Fusion : 8 kJ/mol");
-        arrayList2.add("7) Heat of vapourisation : 137 kJ/mol");
-        arrayList2.add("8) Young modulus : NA GPa");
-        arrayList2.add("9) Sheer modulus : 6.1 GPA");
-        arrayList2.add("10 Bulk modulus : NA GPa");
+        arrayList2.add("7) Heat of vapourisation : 125 kJ/mol");
+        arrayList2.add("8) Young modulus : NA ");
+        arrayList2.add("9) Sheer modulus : NA ");
+        arrayList2.add("10 Bulk modulus : NA ");
 
         ArrayAdapter arrayAdapter2 = new ArrayAdapter(this,android.R.layout.simple_list_item_1,arrayList2);
         listView2.setAdapter(arrayAdapter2);
@@ -68,12 +68,12 @@ public class Ra extends AppCompatActivity {
 
         listView3 = findViewById(R.id.list3);
         ArrayList<String> arrayList3 = new ArrayList<>();
-        arrayList3.add("1) Atomic number : 56");
-        arrayList3.add("2) Atomic mass : 137.327 amu");
-        arrayList3.add("3) Atomic radius : 222 pm");
-        arrayList3.add("4) Van der  Waals Radius : 268 pm");
-        arrayList3.add("5) Covalent radius : 215 pm");
-        arrayList3.add("6) Oxidation State : +1, +2");
+        arrayList3.add("1) Atomic number : 88");
+        arrayList3.add("2) Atomic mass : 226.0254 amu");
+        arrayList3.add("3) Atomic radius : 215 pm");
+        arrayList3.add("4) Van der  Waals Radius : 283 pm");
+        arrayList3.add("5) Covalent radius : 221 pm");
+        arrayList3.add("6) Oxidation State : +2");
 
         ArrayAdapter arrayAdapter3 = new ArrayAdapter(this,android.R.layout.simple_list_item_1,arrayList3);
         listView3.setAdapter(arrayAdapter3);
@@ -81,9 +81,9 @@ public class Ra extends AppCompatActivity {
 
         listView4 = findViewById(R.id.list4);
         ArrayList<String> arrayList4 = new ArrayList<>();
-        arrayList4.add("1) Electronegativity : 0.89 (Pauling Scale)");
-        arrayList4.add("2) Electron Affinity : 13.95 kJ/mol");
-        arrayList4.add("3) Ionistation Energy : 502.9 kJ/mol");
+        arrayList4.add("1) Electronegativity : 0.9 (Pauling Scale)");
+        arrayList4.add("2) Electron Affinity : NA");
+        arrayList4.add("3) Ionistation Energy : 509.3 kJ/mol");
         arrayList4.add("4) Valence : 2");
 
         ArrayAdapter arrayAdapter4  =new ArrayAdapter(this, android.R.layout.simple_list_item_1, arrayList4);
@@ -93,10 +93,10 @@ public class Ra extends AppCompatActivity {
         ArrayList<String> arrayList5 = new ArrayList<>();
         arrayList5.add("1) Critical Temperature : NA");
         arrayList5.add("2) Critical Pressure : NA");
-        arrayList5.add("3) CAS number : CAS7440-39-3");
+        arrayList5.add("3) CAS number : CAS7440-14-4");
         arrayList5.add("4) Refractive Index : NA");
-        arrayList5.add("5) Speed of Sound : 1620 m/s");
-        arrayList5.add("6) Magnetic Type : Paramagnetic");
+        arrayList5.add("5) Speed of Sound : NA");
+        arrayList5.add("6) Magnetic Type : NA");
 
         ArrayAdapter arrayAdapter5 = new ArrayAdapter(this,android.R.layout.simple_list_item_1,arrayList5);
         listView5.setAdapter(arrayAdapter5);
@@ -104,9 +104,9 @@ public class Ra extends AppCompatActivity {
 
         listView6 = findViewById(R.id.list6);
         ArrayList<String> arrayList6 = new ArrayList<>();
-        arrayList6.add("1) Crystal structure : Body Centeerd Cubic");
+        arrayList6.add("1) Crystal structure : Body Centered Cubic");
         arrayList6.add("2) Debye temperature : NA ");
-        arrayList6.add("3) Lattice Constants : 502.8, 502.8, 502.8 pm");
+        arrayList6.add("3) Lattice Constants : 514.8, 514.8, 514.8 pm");
         arrayList6.add("4) Space group number : 229");
         arrayList6.add("5) Lattice angles : 90,90,90 (degree)");
 
@@ -117,11 +117,11 @@ public class Ra extends AppCompatActivity {
 
         listView7 = findViewById(R.id.list7);
         ArrayList<String> arrayList7 = new ArrayList<>();
-        arrayList7.add("1) Half life : Stable");
-        arrayList7.add("2) Lifetime : Stable");
-        arrayList7.add("3) Decay mode : NA");
-        arrayList7.add("4) Neutron mass absorption : 0.00027 ");
-        arrayList7.add("5) Neutron cross section : 1.3");
+        arrayList7.add("1) Half life : 1585.489599188 years ");
+        arrayList7.add("2) Lifetime : 2314.814814815 years");
+        arrayList7.add("3) Decay mode : Alpha Emission ");
+        arrayList7.add("4) Neutron mass absorption : NA");
+        arrayList7.add("5) Neutron cross section : 13");
 
         ArrayAdapter arrayAdapter7 = new ArrayAdapter(this, android.R.layout.simple_list_item_1,arrayList7);
         listView7.setAdapter(arrayAdapter7);
