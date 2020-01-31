@@ -71,8 +71,8 @@ public class Hf extends AppCompatActivity {
         arrayList3.add("2) Atomic mass : 178.49 amu");
         arrayList3.add("3) Atomic radius : 167 pm");
         arrayList3.add("4) Van der  Waals Radius : NA");
-        arrayList3.add("5) Covalent radius : 148 pm");
-        arrayList3.add("6) Oxidation State : -2,+1,+2,+3,+4");
+        arrayList3.add("5) Covalent radius : 150 pm");
+        arrayList3.add("6) Oxidation State : +2,+3,+4");
 
         ArrayAdapter arrayAdapter3 = new ArrayAdapter(this,android.R.layout.simple_list_item_1,arrayList3);
         listView3.setAdapter(arrayAdapter3);
@@ -80,10 +80,10 @@ public class Hf extends AppCompatActivity {
 
         listView4 = findViewById(R.id.list4);
         ArrayList<String> arrayList4 = new ArrayList<>();
-        arrayList4.add("1) Electronegativity : 1.33 (Pauling Scale)");
-        arrayList4.add("2) Electron Affinity : 41.1 kJ/mol");
-        arrayList4.add("3) Ionistation Energy : 640.1 kJ/mol");
-        arrayList4.add("4) Valence : 3");
+        arrayList4.add("1) Electronegativity : 1.3 (Pauling Scale)");
+        arrayList4.add("2) Electron Affinity : 0 kJ/mol");
+        arrayList4.add("3) Ionistation Energy : 658.5 kJ/mol");
+        arrayList4.add("4) Valence : 4");
 
         ArrayAdapter arrayAdapter4  =new ArrayAdapter(this, android.R.layout.simple_list_item_1, arrayList4);
         listView4.setAdapter(arrayAdapter4);
@@ -92,9 +92,9 @@ public class Hf extends AppCompatActivity {
         ArrayList<String> arrayList5 = new ArrayList<>();
         arrayList5.add("1) Critical Temperature : NA");
         arrayList5.add("2) Critical Pressure : NA");
-        arrayList5.add("3) CAS number : CAS7440-67-7");
+        arrayList5.add("3) CAS number : CAS7440-58-6");
         arrayList5.add("4) Refractive Index : NA");
-        arrayList5.add("5) Speed of Sound : 3800 m/s");
+        arrayList5.add("5) Speed of Sound : 3010 m/s");
         arrayList5.add("6) Magnetic Type : Paramagnetic");
 
         ArrayAdapter arrayAdapter5 = new ArrayAdapter(this,android.R.layout.simple_list_item_1,arrayList5);
@@ -104,8 +104,8 @@ public class Hf extends AppCompatActivity {
         listView6 = findViewById(R.id.list6);
         ArrayList<String> arrayList6 = new ArrayList<>();
         arrayList6.add("1) Crystal structure : Hexagonal Closed Pack");
-        arrayList6.add("2) Debye temperature : 291 K");
-        arrayList6.add("3) Lattice Constants : 323.2, 323.2, 514.7 pm");
+        arrayList6.add("2) Debye temperature : NA");
+        arrayList6.add("3) Lattice Constants : 319.64, 319.64, 505.11 pm");
         arrayList6.add("4) Space group number : 194 ");
         arrayList6.add("5) Lattice angles : 90,90,120 (degree)");
 
@@ -119,8 +119,8 @@ public class Hf extends AppCompatActivity {
         arrayList7.add("1) Half life : Stable ");
         arrayList7.add("2) Lifetime : Stable ");
         arrayList7.add("3) Decay mode : NA");
-        arrayList7.add("4) Neutron mass absorption : 0.00066");
-        arrayList7.add("5) Neutron cross section :0.184");
+        arrayList7.add("4) Neutron mass absorption : 0.02");
+        arrayList7.add("5) Neutron cross section : 104");
 
         ArrayAdapter arrayAdapter7 = new ArrayAdapter(this, android.R.layout.simple_list_item_1,arrayList7);
         listView7.setAdapter(arrayAdapter7);
