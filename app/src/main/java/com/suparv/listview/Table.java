@@ -89,6 +89,11 @@ public class Table extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void Y (View view) {
+        Intent intent = new Intent(Table.this, Y.class);
+        startActivity(intent);
+    }
+
 
 
 }
