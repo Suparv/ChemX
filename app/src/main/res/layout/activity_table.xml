@@ -722,9 +722,10 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="	#D2691E"
+                        android:onClick="Y"
                         android:text="Y"
                         android:textAllCaps="false"
-                        android:textSize="15dp"/>
+                        android:textSize="15dp" />
 
                     <Button
                         android:id="@+id/button43"
