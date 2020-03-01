@@ -24,7 +24,7 @@
             android:layout_weight="0.3"
             android:backgaroundTint="#00E91E63"
             android:fontFamily="@font/aldrich"
-            android:text="Vanadium"
+            android:text="Niobium"
             android:textColor="@android:color/white"
             android:textSize="37dp" />
 

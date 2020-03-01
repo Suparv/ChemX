@@ -10,7 +10,7 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class V extends AppCompatActivity {
+public class Nb extends AppCompatActivity {
 
     ListView listView1;
     ListView listView2;
@@ -31,14 +31,14 @@ public class V extends AppCompatActivity {
 
         listView1 = findViewById(R.id.list1);
         ArrayList<String> arrayList1 = new ArrayList<>();
-        arrayList1.add("1) Latin name : Vanadium");
-        arrayList1.add("2) English name : Vanadium");
-        arrayList1.add("3) Colour : Silver grey");
-        arrayList1.add("4) Discovered by : Andres Rio");
-        arrayList1.add("5) Year discovered : 1830 ");
-        arrayList1.add("6) Electron : 23");
-        arrayList1.add("7) Proton : 23");
-        arrayList1.add("8) Neutron : 28");
+        arrayList1.add("1) Latin name : Columbium");
+        arrayList1.add("2) English name : Niobium");
+        arrayList1.add("3) Colour : NA");
+        arrayList1.add("4) Discovered by : Georgiy Flerov ");
+        arrayList1.add("5) Year discovered : 1964 ");
+        arrayList1.add("6) Electron : 104");
+        arrayList1.add("7) Proton : 104");
+        arrayList1.add("8) Neutron : 157");
 
 
         ArrayAdapter arrayAdapter1 = new ArrayAdapter(this, android.R.layout.simple_list_item_1,arrayList1);
@@ -49,16 +49,16 @@ public class V extends AppCompatActivity {
 
         listView2 = findViewById(R.id.list2);
         ArrayList<String> arrayList2 = new ArrayList<>();
-        arrayList2.add("1) Melting point : 1910.0 C = 2183.15 K");
-        arrayList2.add("2) Boiling point : 3407 C = 3680.15 K");
+        arrayList2.add("1) Melting point : 2100.0 C = 2373.15 K");
+        arrayList2.add("2) Boiling point : 5500 C = 5773.15 K");
         arrayList2.add("3) Phase at STP : Solid");
-        arrayList2.add("4) Thermal conductivity : 31 W/(m K)");
-        arrayList2.add("5) Thermal Expansion : 0.0000084 /K");
-        arrayList2.add("6) Heat of Fusion : 22.8 kJ/mol");
-        arrayList2.add("7) Heat of vapourisation : 453 kJ/mol");
-        arrayList2.add("8) Young modulus : 128 GPa");
-        arrayList2.add("9) Sheer modulus : 47 GPa ");
-        arrayList2.add("10 Bulk modulus :  160 GPa");
+        arrayList2.add("4) Thermal conductivity : NA");
+        arrayList2.add("5) Thermal Expansion : NA");
+        arrayList2.add("6) Heat of Fusion : NA");
+        arrayList2.add("7) Heat of vapourisation : NA");
+        arrayList2.add("8) Young modulus : NA");
+        arrayList2.add("9) Sheer modulus : NA ");
+        arrayList2.add("10 Bulk modulus :  NA");
 
         ArrayAdapter arrayAdapter2 = new ArrayAdapter(this,android.R.layout.simple_list_item_1,arrayList2);
         listView2.setAdapter(arrayAdapter2);
@@ -67,12 +67,12 @@ public class V extends AppCompatActivity {
 
         listView3 = findViewById(R.id.list3);
         ArrayList<String> arrayList3 = new ArrayList<>();
-        arrayList3.add("1) Atomic number : 23");
-        arrayList3.add("2) Atomic mass : 50.95 amu");
-        arrayList3.add("3) Atomic radius : 134 pm");
+        arrayList3.add("1) Atomic number : 104");
+        arrayList3.add("2) Atomic mass : 261 amu");
+        arrayList3.add("3) Atomic radius : 150 pm (estimated)");
         arrayList3.add("4) Van der  Waals Radius : NA");
-        arrayList3.add("5) Covalent radius : 125 pm");
-        arrayList3.add("6) Oxidation State : +1,+2,+3,+4,+5");
+        arrayList3.add("5) Covalent radius : 157 pm (estimated)");
+        arrayList3.add("6) Oxidation State : +2,+3,+4");
 
         ArrayAdapter arrayAdapter3 = new ArrayAdapter(this,android.R.layout.simple_list_item_1,arrayList3);
         listView3.setAdapter(arrayAdapter3);
@@ -80,10 +80,10 @@ public class V extends AppCompatActivity {
 
         listView4 = findViewById(R.id.list4);
         ArrayList<String> arrayList4 = new ArrayList<>();
-        arrayList4.add("1) Electronegativity : 1.63");
-        arrayList4.add("2) Electron Affinity : 50.6 kJ/mol");
-        arrayList4.add("3) Ionistation Energy : 650.9 kJ/mol");
-
+        arrayList4.add("1) Electronegativity : NA");
+        arrayList4.add("2) Electron Affinity : NA");
+        arrayList4.add("3) Ionistation Energy : 580 kJ/mol");
+        arrayList4.add("4) Valence : 4");
 
         ArrayAdapter arrayAdapter4  =new ArrayAdapter(this, android.R.layout.simple_list_item_1, arrayList4);
         listView4.setAdapter(arrayAdapter4);
@@ -92,10 +92,10 @@ public class V extends AppCompatActivity {
         ArrayList<String> arrayList5 = new ArrayList<>();
         arrayList5.add("1) Critical Temperature : NA");
         arrayList5.add("2) Critical Pressure : NA");
-        arrayList5.add("3) CAS number : CAS7440-62-2");
+        arrayList5.add("3) CAS number : CAS53850-36-5");
         arrayList5.add("4) Refractive Index : NA");
-        arrayList5.add("5) Speed of Sound : 4560 m/s");
-        arrayList5.add("6) Magnetic Type : Paramagnetic");
+        arrayList5.add("5) Speed of Sound : NA");
+        arrayList5.add("6) Magnetic Type : NA");
 
         ArrayAdapter arrayAdapter5 = new ArrayAdapter(this,android.R.layout.simple_list_item_1,arrayList5);
         listView5.setAdapter(arrayAdapter5);
