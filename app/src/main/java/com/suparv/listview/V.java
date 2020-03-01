@@ -103,11 +103,11 @@ public class V extends AppCompatActivity {
 
         listView6 = findViewById(R.id.list6);
         ArrayList<String> arrayList6 = new ArrayList<>();
-        arrayList6.add("1) Crystal structure : Hexagonal Closed Pack");
-        arrayList6.add("2) Debye temperature : NA");
-        arrayList6.add("3) Lattice Constants : NA");
-        arrayList6.add("4) Space group number : NA");
-        arrayList6.add("5) Lattice angles : NA)");
+        arrayList6.add("1) Crystal structure : \tBody-centered Cubic");
+        arrayList6.add("2) Debye temperature : 380 K");
+        arrayList6.add("3) Lattice Constants : 303, 303, 303 pm");
+        arrayList6.add("4) Space group number : 229");
+        arrayList6.add("5) Lattice angles : π/2, π/2, π/2)");
 
 
         ArrayAdapter arrayAdapter6 = new ArrayAdapter(this,android.R.layout.simple_list_item_1,arrayList6);
@@ -116,11 +116,11 @@ public class V extends AppCompatActivity {
 
         listView7 = findViewById(R.id.list7);
         ArrayList<String> arrayList7 = new ArrayList<>();
-        arrayList7.add("1) Half life : 13.05555555556 h ");
-        arrayList7.add("2) Lifetime : 18.88888888889 h");
-        arrayList7.add("3) Decay mode : Alpha Emission ");
-        arrayList7.add("4) Neutron mass absorption : NA");
-        arrayList7.add("5) Neutron cross section : NA");
+        arrayList7.add("1) Half life : Stable");
+        arrayList7.add("2) Lifetime : Stable");
+        arrayList7.add("3) Decay mode : NA");
+        arrayList7.add("4) Neutron mass absorption : 0.0033");
+        arrayList7.add("5) Neutron cross section : \t5.06");
 
         ArrayAdapter arrayAdapter7 = new ArrayAdapter(this, android.R.layout.simple_list_item_1,arrayList7);
         listView7.setAdapter(arrayAdapter7);
