@@ -154,5 +154,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, Ta.class);
         startActivity(intent);
     }
+    public void Db (View view) {
+        Intent intent = new Intent(MainActivity.this, Db.class);
+        startActivity(intent);
+    }
 
 }
