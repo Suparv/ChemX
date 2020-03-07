@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".Nb"></activity>
+        <activity android:name=".Ta"></activity>
+        <activity android:name=".Nb" />
         <activity android:name=".V" />
         <activity android:name=".Rf" />
         <activity android:name=".Hf" />
