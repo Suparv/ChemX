@@ -146,5 +146,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, V.class);
         startActivity(intent);
     }
+    public void Nb (View view) {
+        Intent intent = new Intent(MainActivity.this, V.class);
+        startActivity(intent);
+    }
 
 }
