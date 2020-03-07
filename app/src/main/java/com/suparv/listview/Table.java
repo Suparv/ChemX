@@ -123,6 +123,10 @@ public class Table extends AppCompatActivity {
         Intent intent = new Intent(Table.this, Nb.class);
         startActivity(intent);
     }
+    public void Ta (View view) {
+        Intent intent = new Intent(Table.this, Ta.class);
+        startActivity(intent);
+    }
 
 
 

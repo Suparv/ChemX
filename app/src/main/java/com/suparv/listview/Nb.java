@@ -53,7 +53,7 @@ public class Nb extends AppCompatActivity {
         arrayList2.add("2) Boiling point : 4927 C = 5200.15 K");
         arrayList2.add("3) Phase at STP : Solid");
         arrayList2.add("4) Thermal conductivity : 54 W/(m K)");
-        arrayList2.add("5) Thermal Expansion : 0.000073 /K");
+        arrayList2.add("5) Thermal Expansion : 0.0000073 /K");
         arrayList2.add("6) Heat of Fusion : 26.8 kJ/mol");
         arrayList2.add("7) Heat of vapourisation : 690 kJ/mol");
         arrayList2.add("8) Young modulus : 105 GPa");
