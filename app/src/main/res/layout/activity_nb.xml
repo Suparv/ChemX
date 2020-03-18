@@ -22,7 +22,7 @@
             android:layout_marginStart="40dp"
             android:layout_marginTop="50dp"
             android:layout_weight="0.3"
-            android:backgaroundTint="#00E91E63"
+            android:backgroundTint="#00E91E63"
             android:fontFamily="@font/aldrich"
             android:text="Niobium"
             android:textColor="@android:color/white"
@@ -34,7 +34,7 @@
             android:layout_height="4dp"
             android:layout_marginTop="55dp"
             android:layout_marginRight="50dp"
-            android:layout_weight="0.1"
+            android:layout_weight="0.2"
             android:background="@android:color/white" />
     </LinearLayout>
 
