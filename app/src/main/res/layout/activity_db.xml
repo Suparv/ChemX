@@ -24,7 +24,7 @@
             android:layout_weight="0.3"
             android:backgroundTint="#00E91E63"
             android:fontFamily="@font/aldrich"
-            android:text="Dubnium"
+            android:text="Dubinium"
             android:textColor="@android:color/white"
             android:textSize="37dp" />
 
